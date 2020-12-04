@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.cabecalhoPrincipal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+}
+
+.conteudoPrincipal .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudoPrincipal-lista {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rodapePrincipal {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodapePrincipal .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodapePrincipal-direitos-autorais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
