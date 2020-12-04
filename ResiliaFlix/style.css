@@ -51,9 +51,6 @@ a{
     width: 200px;
 }
 
-.cabecalhoPrincipal-titulo-link:hover {
-    color: white;
-}
 
 .cabecalhoPrincipal-menu-link {
     margin-left: 10px;
@@ -87,10 +84,12 @@ a{
     background-image: url(imagens/banner.jpg);
     background-position: center;
     background-size: cover;
+    border-bottom: 5px rgb(73, 71, 71) solid;
 }
 
 .banner .container {
     margin-left: 30px;
+    margin-top: 100px;
 }
 
 .banner-descricao {
@@ -189,7 +188,7 @@ a{
     margin-top: 3%;
     margin-left: 3%;
     color: white;
-    font-size: 15pt;
+    font-size: 20pt;
     font-weight: bold;
 }
 
@@ -228,12 +227,15 @@ a{
 
 .conteudoPrincipal-lista-banner {
     width: 238px;
+    height: 350px;
     margin: 10px auto 30px auto;
 }
 
-.conteudoPrincipal-lista-item-titulo {
-    color: white;
-    font-weight: bold;
+.conteudoPrincipal-lista-banner:hover {
+    border: 1px rgba(255, 255, 255, 0.6) solid;
+    width: 300px;
+    height: 400px;
+    transition: 0.5s;
 }
 
 

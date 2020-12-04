@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.cabecalhoPrincipal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cabecalhoPrincipal .container {
+    width: 40%;
+}
+
+.cabecalhoPrincipal-menu {
+    display: none;
+}
+
+.cabecalhoPrincipal-titulo-link-img {
+    width: 100px;
+}
+
+.cabecalhoPrincipal-menu-botao {
+    margin: 0;
+}
+
+/**BANNER**/
+
+.banner .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-titulo {
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+.banner-descricao {
+    display: none;
+}
+
+.banner-assista-botao {
+    width: 70px;
+    height: 35px;
+    padding: 8px;
+}
+
+.banner-infos-botao {
+    width: 120px;
+    height: 35px;
+    padding: 8px;
+}
+
+.banner-assista-botao-link {
+    font-size: 11pt;
+}
+
+.conteudoPrincipal-lista-banner {
+    width: 150px;
+    height: 230px;
+}
+
+/**FOOTER**/ 
+
+.rodapePrincipal .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodapePrincipal-duvidas {
+    flex-direction: column;
+}
+
+.rodapePrincipal-direitos-autorais {
+    flex-direction: row;
+}
