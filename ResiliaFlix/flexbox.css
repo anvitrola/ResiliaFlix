@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+
+/**CABECALHO**/
 .cabecalhoPrincipal {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .cabecalhoPrincipal .container {
@@ -10,9 +13,31 @@
     align-items: center;
 }
 
+/**BANNER**/
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+
+
+/**CONTEUDO PRINCIPAL**/
+
 .conteudoPrincipal .container {
     display: flex;
     flex-direction: column;
+}
+
+.conteudoPrincipal-index .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .conteudoPrincipal-lista {
@@ -21,6 +46,14 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+.conteudoPrincipal-index-formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**RODAPE**/
 
 .rodapePrincipal {
     display: flex;

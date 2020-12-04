@@ -1,0 +1,270 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/**CONFIGURAÇÃO BÁSICA/GERAL**/
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+/**MENU PRINCIPAL**/
+
+.cabecalhoPrincipal {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+}
+
+.cabecalhoPrincipal .container {
+    width: 80%;
+    height: 70px;
+}
+
+.cabecalhoPrincipal-titulo-link-img {
+    width: 170px;
+    margin-right: 40px;
+}
+
+.cabecalhoPrincipal-titulo-link-img-index {
+    width: 200px;
+}
+
+.cabecalhoPrincipal-titulo-link:hover {
+    color: white;
+}
+
+.cabecalhoPrincipal-menu-link {
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.cabecalhoPrincipal-menu-botao {
+    border: none;
+    height: 38px;
+    width: 70px;
+    background: red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.cabecalhoPrincipal-menu-botao-link {
+    color: white;
+}
+
+
+
+
+
+/**BANNER**/
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(imagens/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .container {
+    margin-left: 30px;
+}
+
+.banner-descricao {
+    width: 560px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.banner-titulo {
+    font-size: 30pt;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.banner-descricao-paragrafo {
+    color: white;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.banner-assista-botao {
+    width: 110px;
+    height: 40px;
+    background: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.banner-infos-botao {
+    width: 180px;
+    height: 40px;
+    background: white;
+    opacity: 0.7;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.banner-assista-botao-link {
+    color: black;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+
+
+
+/**CONTEUDO PRINCIPAL**/
+
+.conteudoPrincipal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 40, 40);
+}
+
+.conteudoPrincipal-index{
+    width: 100%;
+    height: 100vh;
+    background: url(imagens/netflix-image.jpg);
+    background-size: cover;
+}
+
+.conteudoPrincipal-index .container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.conteudoPrincipal-index-titulo {
+    font-size: 35pt;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 17px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.conteudoPrincipal-index-subtitulo {
+    font-size: 20pt;
+    text-align: center;
+    color: white;
+}
+
+.conteudoPrincipal-index-subtitulo-paragrafo-form{
+    margin-top: 50px;
+    font-size: 15pt;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.conteudoPrincipal-subtitulo {
+    text-transform: capitalize;
+    margin-top: 3%;
+    margin-left: 3%;
+    color: white;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.conteudoPrincipal-index-formulario {
+    width: 800px;
+}
+
+.conteudoPrincipal-index-formulario-input {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+}
+
+.conteudoPrincipal-index-formulario-botao {
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: red;
+    border-left: 1px rgba(0, 0, 0, alpha) solid;
+    border-radius: 2px;
+}
+
+.conteudoPrincipal-index-cadastro-botao-link {
+    font-size: 18pt;
+    color: white;
+}
+
+.conteudoPrincipal-lista {
+    list-style: none;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.conteudoPrincipal-lista-banner {
+    width: 238px;
+    margin: 10px auto 30px auto;
+}
+
+.conteudoPrincipal-lista-item-titulo {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+/**RODAPÉ**/
+
+.rodapePrincipal {
+    border-top: 5px rgb(73, 71, 71) solid;
+    background: black;
+    padding: 30px;  
+}
+
+.rodapePrincipal .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.rodapePrincipal-duvidas-item, .rodapePrincipal-direitos-autorais-item {
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.rodapePrincipal-duvidas-item-link, .rodapePrincipal-direitos-autorais-item-link {
+    color: white;
+    opacity: .7;
+}
+
+.copyright {
+    color: white;
+    margin-top: 10%;
+    opacity: .7;
+}
+
+.rodapePrincipal-icone {
+    margin-left: 10px;
+    width: 25px;
+    color: white;
+}
+
+.rodapePrincipal-direitos-autorais {
+    margin-top: 20px;
+    width: 100%;
+}

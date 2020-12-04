@@ -1,59 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ResiliaFlix | Home</title>
+    <title>ResiliaFlix | Filmes </title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="flexbox.css">
     <script src="https://kit.fontawesome.com/3e11f101bb.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!---------------------MENU-PRINCIPAL---------------------->
     <header class="cabecalhoPrincipal">
         <div class="container">
 
             <div class="cabecalhoPrincipal-titulo">
                 <h1>
                     <a href="index.html" class="cabecalhoPrincipal-titulo-link">
-                        <img src="imagens/logoresiliaflix.png" alt="" class="cabecalhoPrincipal-titulo-link-img-index">
+                        <img src="imagens/logoresiliaflix.png" alt="" class="cabecalhoPrincipal-titulo-link-img">
                     </a>
                 </h1>
             </div>
+       
+
+            <nav class="cabecalhoPrincipal-menu">
+                <a href="index.html" class="cabecalhoPrincipal-menu-link">Home</a>
+                <a href="#" class="cabecalhoPrincipal-menu-link">Filmes</a>
+                <a href="#" class="cabecalhoPrincipal-menu-link">Séries</a>
+                <a href="#" class="cabecalhoPrincipal-menu-link">Contato</a>
+                <a href="#" class="cabecalhoPrincipal-menu-link">Sobre</a>
+            </nav>
 
         </div>
 
         <button class="cabecalhoPrincipal-menu-botao">
-            <a href="filmes.html" class="cabecalhoPrincipal-menu-botao-link">
+            <a href="#" class="cabecalhoPrincipal-menu-botao-link">
                 Entrar
             </a>
         </button>
 
     </header>
 
-    <main class="conteudoPrincipal-index">
+    <div class="banner">
         <div class="container">
+            <h1 class="banner-titulo">
+                Retrato de uma jovem em chamas
+            </h1>
 
-            <div class="conteudoPrincipal-index-titulos">
-                <h1 class="conteudoPrincipal-index-titulo">
-                    Filmes, séries e muito mais.<br> Sem limites.
-                </h1>
-
-                <h3 class="conteudoPrincipal-index-subtitulo">
-                    <p class="conteudoPrincipal-index-subtitulo-paragrafo">Assista onde quiser. Cancele quando quiser</p>
-                    <p class="conteudoPrincipal-index-subtitulo-paragrafo-form">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-                </h3>
-            
+            <div class="banner-descricao">
+                <p class="banner-descricao-paragrafo">
+                    Marianne é uma jovem pintora na França do século 18, com a tarefa de pintar um retrato de Héloïse para seu casamento, sem que ela saiba. Passando seus dias observando Héloïse e as noites pintando, Marianne se vê cada vez mais próxima de sua modelo.
+                </p>
             </div>
-
-            <form action="" class="conteudoPrincipal-index-formulario">
-                <input type="email" placeholder="Email" class="conteudoPrincipal-index-formulario-input">
-
-                <button class="conteudoPrincipal-index-formulario-botao">
-                    <a href="" class="conteudoPrincipal-index-cadastro-botao-link">VAMOS LÁ ></a>
-                </button>
-            </form>
+            <button class="banner-assista-botao">
+                <a href="#" class="banner-assista-botao-link">
+                    Assistir
+                </a>
+            </button>
+            <button class="banner-infos-botao">
+                <a href="#" class="banner-assista-botao-link">
+                    Mais informações
+                </a>
+            </button>
         </div>
+    </div>
+
+    <main class="conteudoPrincipal">
+        <div class="container">
+            <h3 class="conteudoPrincipal-subtitulo">
+                Coming this week...
+            </h3>
+
+            <ul class="conteudoPrincipal-lista">
+                <li class="conteudoPrincipal-lista-item">
+                    <h5 class="conteudoPrincipal-lista-item-titulo">
+                        Retrato de Uma Jovem em Chamas
+                    </h5>
+                    <img src="imagens/portrait.jpg" alt="" class="conteudoPrincipal-lista-banner">
+                </li>
+                <li class="conteudoPrincipal-lista-item">
+                    <h5 class="conteudoPrincipal-lista-item-titulo">
+                        Retrato de Uma Jovem em Chamas
+                    </h5>
+                    <img src="imagens/portrait.jpg" alt="" class="conteudoPrincipal-lista-banner">
+                </li>
+                <li class="conteudoPrincipal-lista-item">
+                    <h5 class="conteudoPrincipal-lista-item-titulo">
+                        Retrato de Uma Jovem em Chamas
+                    </h5>
+                    <img src="imagens/portrait.jpg" alt="" class="conteudoPrincipal-lista-banner">
+                </li>
+                <li class="conteudoPrincipal-lista-item">
+                    <h5 class="conteudoPrincipal-lista-item-titulo">
+                        Retrato de Uma Jovem em Chamas
+                    </h5>
+                    <img src="imagens/portrait.jpg" alt="" class="conteudoPrincipal-lista-banner">
+                </li>
+            </ul>
+
+            <ul class="conteudoPrincipal-lista">
+                <li class="conteudoPrincipal-lista-item">
+                    <h5 class="conteudoPrincipal-lista-item-titulo">
+                        Retrato de Uma Jovem em Chamas
+                    </h5>
+                    <img src="imagens/portrait.jpg" alt="" class="conteudoPrincipal-lista-banner">
+                </li>
+                <li class="conteudoPrincipal-lista-item">
+                    <h5 class="conteudoPrincipal-lista-item-titulo">
+                        Retrato de Uma Jovem em Chamas
+                    </h5>
+                    <img src="imagens/portrait.jpg" alt="" class="conteudoPrincipal-lista-banner">
+                </li>
+                <li class="conteudoPrincipal-lista-item">
+                    <h5 class="conteudoPrincipal-lista-item-titulo">
+                        Retrato de Uma Jovem em Chamas
+                    </h5>
+                    <img src="imagens/portrait.jpg" alt="" class="conteudoPrincipal-lista-banner">
+                </li>
+                <li class="conteudoPrincipal-lista-item">
+                    <h5 class="conteudoPrincipal-lista-item-titulo">
+                        Retrato de Uma Jovem em Chamas
+                    </h5>
+                    <img src="imagens/portrait.jpg" alt="" class="conteudoPrincipal-lista-banner">
+                </li>
+            </ul>
+            
     </main>
 
 
@@ -158,6 +230,6 @@
 
         </div>
     </footer>
-
+    
 </body>
 </html>
