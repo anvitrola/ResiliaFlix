@@ -8,10 +8,24 @@
     align-items: center;
 }
 
+.cabecalhoPrincipal-index {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
 .cabecalhoPrincipal .container {
     display: flex;
     align-items: center;
 }
+
+
+.cabecalhoPrincipal-index .container {
+    display: flex;
+    align-items: center;
+}
+
 
 /**BANNER**/
 
