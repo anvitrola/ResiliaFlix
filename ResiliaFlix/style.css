@@ -55,7 +55,6 @@ a{
 .cabecalhoPrincipal-menu-link {
     margin-left: 10px;
     color: white;
-    font-weight: bold;
 }
 
 .cabecalhoPrincipal-menu-botao, .cabecalhoPrincipal-menu-botao-index {
@@ -72,7 +71,9 @@ a{
     color: white;
 }
 
-
+.cabecalhoPrincipal-menu-botao-index {
+    margin-right: 40px;
+}
 
 
 
@@ -251,9 +252,11 @@ a{
     padding: 30px;  
 }
 
-.rodapePrincipal .container {
+.rodapePrincipal-duvidas {
     width: 90%;
     margin: 0 auto;
+    width: 80%;
+    height: 200px;
 }
 
 .rodapePrincipal-duvidas-item, .rodapePrincipal-direitos-autorais-item {
@@ -282,6 +285,13 @@ a{
     margin-top: 20px;
     width: 100%;
 }
+
+
+
+
+
+
+
 
 
 /**MEDIA QUERIES**/
@@ -393,23 +403,22 @@ a{
 
 /**FOOTER**/ 
 
-.rodapePrincipal .container {
+.rodapePrincipal-duvidas {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 650px;
 }
 
-.rodapePrincipal-duvidas {
-    flex-direction: column;
-}
 
 .rodapePrincipal-direitos-autorais {
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 }
 
-@media (max-width: max-width: 1100px) {
+@media (max-width: 1100px) {
 
 .cabecalhoPrincipal {
     display: flex;
@@ -490,13 +499,11 @@ a{
 
 /**FOOTER**/ 
 
-.rodapePrincipal .container {
-    justify-content: center;
-    align-items: center;
-}
-
 .rodapePrincipal-duvidas {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
 }
 
 .rodapePrincipal-direitos-autorais {
