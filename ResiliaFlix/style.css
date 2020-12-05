@@ -253,7 +253,7 @@ a{
 }
 
 .rodapePrincipal-duvidas {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     width: 80%;
     height: 200px;
@@ -265,6 +265,7 @@ a{
 }
 
 .rodapePrincipal-duvidas-item-link, .rodapePrincipal-direitos-autorais-item-link {
+    text-align: center;
     color: white;
     opacity: .7;
 }
@@ -296,7 +297,7 @@ a{
 
 /**MEDIA QUERIES**/
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
 .cabecalhoPrincipal {
     display: flex;
@@ -407,7 +408,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 650px;
+    height: auto;
 }
 
 
@@ -416,97 +417,4 @@ a{
     flex-wrap: wrap;
 }
 
-}
-
-@media (max-width: 1100px) {
-
-.cabecalhoPrincipal {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    position: absolute;
-}
-
-.cabecalhoPrincipal .container {
-    width: 40%;
-}
-
-.cabecalhoPrincipal-menu {
-    display: none;
-}
-
-.cabecalhoPrincipal-titulo-link-img {
-    width: 110px;
-}
-
-.cabecalhoPrincipal-titulo-link-img-index {
-    width: 150px;
-}
-
-.cabecalhoPrincipal-menu-botao-index {
-    margin-right: 20px;
-}
-
-/**BANNER**/
-
-.banner-titulo {
-    font-size: 17pt;
-    font-weight: bold;
-    margin: 180px 0 10px -20px;
-}
-
-.banner-descricao {
-    display: none;
-}
-
-.banner-assista-botao {
-    width: 70px;
-    height: 35px;
-    padding: 8px;
-    margin-left: -20px;
-}
-
-.banner-infos-botao {
-    width: 150px;
-    height: 35px;
-    padding: 8px;
-    margin-left: -20px;
-}
-
-.banner-assista-botao-link {
-    font-size: 11pt;
-}
-
-.conteudoPrincipal-lista-banner {
-    width: 150px;
-    height: 230px;
-}
-
-/**CONTEUDO PRINCIPAL**/ 
-
-.conteudoPrincipal-subtitulo {
-    margin-top: 30px;
-}
-
-.conteudoPrincipal-index-formulario {
-    width: 50%;
-}
-
-.conteudoPrincipal-index-cadastro-botao-link {
-    font-size: 13pt;
-}
-
-
-/**FOOTER**/ 
-
-.rodapePrincipal-duvidas {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 650px;
-}
-
-.rodapePrincipal-direitos-autorais {
-    flex-direction: row;
-}
 }
